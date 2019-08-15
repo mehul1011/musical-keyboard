@@ -1,0 +1,93 @@
+html{
+  font-size: 10px;
+  background: url('./MjFo1li.jpg') bottom center;
+  background-size: cover;
+  /* height: 610px; */
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  overflow-wrap: unset; 
+}
+/* .keys {
+  flex: 1 1 160px;
+} */
+/*
+.key-1 {
+  display: inline;
+  flex: 1;
+  left: 100px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* overflow-wrap: unset; 
+}
+*/
+/* .key-2 {
+  display: flex;
+  flex: 1;
+  left: 100px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* overflow-wrap: unset; 
+} */
+/* .key-3 {
+  display: flex;
+  flex: 1;
+  left: 100px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* overflow-wrap: unset; 
+} */
+.key {
+  position: relative;
+  border: 0.4rem solid black;
+  /* 0.4rem sets the border size to 0.4 times the size of the browser font (default)  */
+  border-radius: 0.5rem; 
+  /* 0.5rem  == 8px */  
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all .07s;
+  width: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 0.5rem black;
+  /* overflow-wrap: inherit; */
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: greenyellow;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
+

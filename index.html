@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  <title>My Drum Kit</title>
+  </head>
+  <body>
+
+    <div class="keys">
+
+      <div class="key" data-key="81">
+      <kbd>q</kbd>
+      <!-- here kbd defines the keyboard inputs and is a phrase tag which indicates that the block of text or code has a structural meaning -->
+      <span class="sound">clap</span>
+    </div>
+    <div class="key" data-key="87">
+      <kbd>w</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div class="key" data-key="69">
+      <kbd>e</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div class="key" data-key="82">
+      <kbd>r</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div class="key" data-key="84">
+      <kbd>t</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div class="key" data-key="89">
+      <kbd>y</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div class="key" data-key="85">
+      <kbd>u</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div class="key" data-key="73">
+      <kbd>i</kbd>
+      <span class="sound">tom</span>
+    </div>
+
+    <div class="key" data-key="79">
+      <kbd>o</kbd>
+      <span class="sound">tink</span>
+    </div>
+    <div class="key" data-key="80">
+      <kbd>p</kbd>
+      <span class="sound">clap</span>
+    </div>
+  
+    <div class="key" data-key="65">
+      <kbd>a</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div class="key" data-key="83">
+      <kbd>s</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div class="key" data-key="68">
+      <kbd>d</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div class="key" data-key="70">
+      <kbd>f</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div class="key" data-key="71">
+      <kbd>g</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div class="key" data-key="72">
+      <kbd>h</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div class="key" data-key="74">
+      <kbd>j</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div class="key" data-key="75">
+      <kbd>k</kbd>
+      <span class="sound">tink</span>
+    </div>
+
+    <div class="key" data-key="76">
+      <kbd>l</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div class="key" data-key="90">
+      <kbd>z</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div class="key" data-key="88">
+      <kbd>x</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div class="key" data-key="67">
+      <kbd>c</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div class="key" data-key="86">
+      <kbd>v</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div class="key" data-key="66">
+      <kbd>b</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div class="key" data-key="78">
+      <kbd>n</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div class="key" data-key="77">
+      <kbd>m</kbd>
+      <span class="sound">tom</span>
+    </div>
+  </div>
+
+  <audio src="sounds/clap.wav" data-key="81">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/hihat.wav" data-key="87">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/kick.wav" data-key="69">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/openhat.wav" data-key="82">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/boom.wav" data-key="84">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/ride.wav" data-key="89">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/snare.wav" data-key="85">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/tom.wav" data-key="73">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/tink.wav" data-key="79">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/clap.wav" data-key="80">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/hihat.wav" data-key="65">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/kick.wav" data-key="83">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/openhat.wav" data-key="68">
+  </audio>
+  <audio src="sounds/boom.wav" data-key="70">
+  </audio>
+  <audio src="sounds/ride.wav" data-key="71">
+  </audio>
+  <audio src="sounds/snare.wav" data-key="72">
+  </audio>
+  <audio src="sounds/tom.wav" data-key="74">
+  </audio>
+  <audio src="sounds/tink.wav" data-key="75">
+  </audio>
+  <audio src="sounds/clap.wav" data-key="76">
+  </audio>
+  <audio src="sounds/hihat.wav" data-key="90">
+  </audio>
+  <audio src="sounds/kick.wav" data-key="88">
+  </audio>
+  <audio src="sounds/openhat.wav" data-key="67">
+  </audio>
+  <audio src="sounds/boom.wav" data-key="86">
+  </audio>
+  <audio src="sounds/ride.wav" data-key="66">
+    <!-- data-key is a data attribute (data-*) that is used to store custom data private to only the page or the application -->
+  </audio>
+  <audio src="sounds/snare.wav" data-key="78">
+  </audio>
+  <audio src="sounds/tom.wav" data-key="77">
+  </audio>
+
+  <script src="./index.js"></script>
+  </body>
+  </html>
+  
